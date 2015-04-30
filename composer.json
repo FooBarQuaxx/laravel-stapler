@@ -9,9 +9,15 @@
             "email": "tandrewbennett@hotmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/med-abidi/stapler"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
-        "codesleeve/stapler": "1.0.*",
+        "codesleeve/stapler": "dev-flysystem-storage-backend@dev",
         "laravel/framework": "4.*|5.*"
     },
     "autoload": {
